@@ -76,9 +76,9 @@ const WhyUs = () => {
             </h2>
           </div>
           <p className="text-gray-500 max-w-md text-base leading-relaxed">
-            We understand that when it comes to electrical issues, you need fast
-            and effective solutions. Our skilled team delivers reliable service
-            always.
+            Construction projects demand precision, planning, and quality
+            execution. Our experienced team delivers reliable results every
+            time.
           </p>
         </div>
 

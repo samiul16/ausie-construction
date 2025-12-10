@@ -7,32 +7,27 @@ import { ArrowUpRight, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Electrical Repairs",
-    image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800",
+    title: "Residential Construction",
+    image: "/what-we-do/residence.jpg",
   },
   {
-    title: "Lighting Installation",
-    image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+    title: "Commercial Construction",
+    image: "/what-we-do/commercial.jpg",
   },
   {
-    title: "Wiring & Rewiring",
-    image:
-      "https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&q=80&w=800",
+    title: "Industrial Construction",
+    image: "/what-we-do/industrial.jpg",
   },
   {
-    title: "Panel Upgrades",
-    image:
-      "https://images.unsplash.com/photo-1544724569-5f546fd6dd2d?auto=format&fit=crop&q=80&w=800",
+    title: "Civil Construction",
+    image: "/what-we-do/commercial.jpg",
   },
   {
-    title: "Surge Protection",
-    image:
-      "https://images.unsplash.com/photo-1592833075253-1574b6df5295?auto=format&fit=crop&q=80&w=800",
+    title: "Project Management",
+    image: "/what-we-do/industrial.jpg",
   },
   {
-    title: "Emergency Services",
+    title: "Design & Engineering",
     image:
       "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
   },
@@ -85,8 +80,9 @@ const Services = () => {
 
           {/* Right Side: Description */}
           <p className="text-gray-500 max-w-md leading-relaxed text-sm md:text-base">
-            Your trusted partner for all electrical needs – reliable, skilled,
-            and timely solutions you can count on.
+            Your trusted partner for all{" "}
+            <span className="text-black">Construction</span> needs – reliable,
+            skilled, and timely solutions you can count on.
           </p>
         </motion.div>
 

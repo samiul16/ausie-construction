@@ -6,9 +6,9 @@ import { Phone, Star, ArrowRight } from "lucide-react";
 import type { Variants, Transition } from "framer-motion";
 
 const images = [
-  "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop", // Electrician 1
-  "https://images.unsplash.com/photo-1581092921461-eab62e97a782?q=80&w=2070&auto=format&fit=crop", // Industrial
-  "https://images.unsplash.com/photo-1558402529-d2638a7023e9?q=80&w=2070&auto=format&fit=crop", // Wires
+  "/landing/construction-landing.jpg", // Electrician 1
+  "/landing/construction-landing-3.jpg", // Industrial
+  "/landing/construction-landing-2.jpg", // Wires
 ];
 
 const testimonials = [
@@ -56,11 +56,11 @@ const Hero = () => {
   };
 
   const tickerItems = [
-    "ELECTRIA",
+    "CONSTRUCTION",
     "FAST",
     "RELIABLE",
     "SAFE",
-    "ELECTRIA",
+    "CONSTRUCTION",
     "FAST",
     "RELIABLE",
     "SAFE",
@@ -85,9 +85,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-5xl md:text-6xl lg:text-7xl font-bold uppercase leading-[0.95] tracking-tight"
             >
-              Reliable Electrical <br />
-              Services, Whenever <br />
-              You Need Them
+              Smart Construction. <br /> Sustainable Outcomes.
             </motion.h1>
 
             {/* Subtext */}
@@ -105,7 +103,7 @@ const Hero = () => {
               className="flex flex-wrap items-center gap-4"
             >
               <button className="flex items-center gap-2 bg-yellow-400 text-black font-semibold px-8 py-4 rounded-full hover:bg-yellow-500 transition-all shadow-[0_0_20px_rgba(250,204,21,0.3)] hover:scale-105 active:scale-95">
-                <span>0420 264 105</span>
+                <span>+61 0420 264 105</span>
                 <div className="bg-white/20 p-1 rounded-full">
                   <Phone size={16} />
                 </div>
@@ -199,7 +197,7 @@ const Hero = () => {
         </div>
       </section>
       {/* --- INFINITE MARQUEE --- */}
-      <div className="w-full bg-yellow-400 py-4 overflow-hidden flex border-y border-yellow-500">
+      <div className="w-full bg-yellow-400 py-12 overflow-hidden flex border-y border-yellow-500">
         <motion.div
           className="flex whitespace-nowrap"
           animate={{ x: "-50%" }}
@@ -214,7 +212,7 @@ const Hero = () => {
           {[...tickerItems, ...tickerItems, ...tickerItems, ...tickerItems].map(
             (item, index) => (
               <div key={index} className="flex items-center mx-6">
-                <span className="text-black font-bold text-lg tracking-widest uppercase">
+                <span className="text-black font-bold text-2xl tracking-widest uppercase">
                   {item}
                 </span>
                 <span className="ml-12 w-2 h-2 bg-black rounded-full" />
