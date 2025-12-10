@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${sofiaPro.className} antialiased`}>
+      <body className={`${sofiaPro.className} antialiased overflow-x-hidden!`}>
         {/* 2. Add the Navbar here */}
         <Navbar />
 
